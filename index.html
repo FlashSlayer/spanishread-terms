@@ -1,0 +1,360 @@
+<title>Terms of Service — Spanish Read</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Sora:wght@700;800&display=swap">
+
+<style>
+  :root {
+    --bg: #ffffff;
+    --surface: #f8f7fc;
+    --border: #e8e4f4;
+    --fg: #18132e;
+    --fg2: #4a4266;
+    --fg3: #8c84a8;
+    --accent: #7b52d3;
+    --accent-dim: #f0ecfb;
+    --accent-border: #d4c8f5;
+    color-scheme: light;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #100d1e;
+      --surface: #1a1630;
+      --border: #2c2448;
+      --fg: #f0ecfb;
+      --fg2: #b0a8cc;
+      --fg3: #6e6690;
+      --accent: #a980ff;
+      --accent-dim: #221848;
+      --accent-border: #3d2e6e;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #100d1e;
+    --surface: #1a1630;
+    --border: #2c2448;
+    --fg: #f0ecfb;
+    --fg2: #b0a8cc;
+    --fg3: #6e6690;
+    --accent: #a980ff;
+    --accent-dim: #221848;
+    --accent-border: #3d2e6e;
+    color-scheme: dark;
+  }
+
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    color: var(--fg);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.7;
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 0 64px;
+  }
+
+  .page { max-width: 720px; margin: 0 auto; }
+
+  .header {
+    padding: 48px 0 36px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 48px;
+  }
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 28px;
+  }
+  .brand-mark {
+    width: 40px; height: 40px;
+    background: linear-gradient(135deg, #7b52d3, #a980ff);
+    border-radius: 12px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 20px;
+  }
+  .brand-name {
+    font-family: 'Sora', sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--fg);
+  }
+  .header h1 {
+    font-family: 'Sora', sans-serif;
+    font-size: clamp(28px, 5vw, 38px);
+    font-weight: 800;
+    color: var(--fg);
+    line-height: 1.2;
+    text-wrap: balance;
+    margin-bottom: 12px;
+  }
+  .header .meta {
+    font-size: 13px;
+    color: var(--fg3);
+  }
+  .header .meta span {
+    display: inline-block;
+    margin-right: 20px;
+  }
+
+  .summary-box {
+    background: var(--accent-dim);
+    border: 1px solid var(--accent-border);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-bottom: 48px;
+  }
+  .summary-box p {
+    font-size: 14px;
+    color: var(--fg2);
+    line-height: 1.65;
+  }
+  .summary-box strong { color: var(--accent); }
+
+  .section { margin-bottom: 44px; }
+  .section h2 {
+    font-family: 'Sora', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+    color: var(--fg);
+    margin-bottom: 14px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+  }
+  .section p {
+    color: var(--fg2);
+    margin-bottom: 12px;
+    font-size: 14.5px;
+  }
+  .section p:last-child { margin-bottom: 0; }
+  .section ul, .section ol {
+    padding-left: 22px;
+    margin-bottom: 12px;
+  }
+  .section li {
+    color: var(--fg2);
+    font-size: 14.5px;
+    margin-bottom: 7px;
+  }
+  .section li:last-child { margin-bottom: 0; }
+
+  .callout {
+    background: var(--surface);
+    border-left: 4px solid var(--accent);
+    border-radius: 0 10px 10px 0;
+    padding: 14px 18px;
+    margin-bottom: 14px;
+  }
+  .callout p {
+    font-size: 14px;
+    color: var(--fg2);
+    margin: 0;
+    line-height: 1.6;
+  }
+  .callout strong { color: var(--fg); }
+
+  .contact-card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 20px 22px;
+    margin-top: 14px;
+  }
+  .contact-card p { margin-bottom: 6px; font-size: 14px; color: var(--fg2); }
+  .contact-card .email {
+    display: inline-block;
+    font-weight: 700;
+    color: var(--accent);
+    font-size: 15px;
+    margin-top: 4px;
+  }
+
+  .footer {
+    text-align: center;
+    font-size: 12px;
+    color: var(--fg3);
+    padding-top: 32px;
+    border-top: 1px solid var(--border);
+  }
+
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+</style>
+
+<div class="page">
+
+  <header class="header">
+    <div class="brand">
+      <div class="brand-mark">📖</div>
+      <span class="brand-name">Spanish Read</span>
+    </div>
+    <h1>Terms of Service</h1>
+    <div class="meta">
+      <span>Effective date: October 23, 2026</span>
+      <span>Last updated: October 23, 2026</span>
+    </div>
+  </header>
+
+  <div class="summary-box">
+    <p>
+      <strong>Plain-English summary:</strong> Spanish Read is free to use. You keep your account in good standing by using the app honestly and not abusing it. We own the app and its content; you own your account. We can terminate accounts that break these rules. The app is provided as-is — we're not liable for issues beyond our control.
+    </p>
+  </div>
+
+  <!-- 1. Acceptance -->
+  <div class="section">
+    <h2>1. Acceptance of Terms</h2>
+    <p>
+      By downloading, installing, or using Spanish Read ("the App"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree, do not use the App.
+    </p>
+    <p>
+      These Terms apply to all users of the App, whether or not you have created an account.
+    </p>
+  </div>
+
+  <!-- 2. Description of Service -->
+  <div class="section">
+    <h2>2. Description of Service</h2>
+    <p>
+      Spanish Read is a mobile application that helps users learn Spanish through immersive reading stories, vocabulary exercises, quizzes, and listening practice. The App is currently available on Android and Windows.
+    </p>
+    <p>
+      We reserve the right to modify, suspend, or discontinue any part of the App at any time without prior notice.
+    </p>
+  </div>
+
+  <!-- 3. Accounts -->
+  <div class="section">
+    <h2>3. User Accounts</h2>
+    <p>
+      Creating an account is optional. If you choose to create one:
+    </p>
+    <ul>
+      <li>You must provide a valid email address and a username of your choosing.</li>
+      <li>You are responsible for keeping your password secure. We are not liable for any loss resulting from unauthorized access to your account.</li>
+      <li>You must be at least 13 years old to create an account.</li>
+      <li>One person may not maintain multiple accounts to gain an unfair advantage.</li>
+    </ul>
+    <p>
+      You may delete your account at any time from the Profile tab inside the App. See our <a href="https://flashslayer.github.io/spanishread-privacy/">Privacy Policy</a> for details on what data is deleted.
+    </p>
+  </div>
+
+  <!-- 4. Acceptable Use -->
+  <div class="section">
+    <h2>4. Acceptable Use</h2>
+    <p>You agree not to:</p>
+    <ul>
+      <li>Use the App for any unlawful purpose or in violation of any applicable laws.</li>
+      <li>Attempt to reverse-engineer, decompile, or extract the App's source code or content.</li>
+      <li>Use automated tools, bots, or scripts to interact with the App or gain XP unfairly.</li>
+      <li>Attempt to gain unauthorized access to any part of the App or its backend systems.</li>
+      <li>Interfere with or disrupt the App's servers or infrastructure.</li>
+      <li>Impersonate another person or use a username that is offensive, misleading, or infringes on another's rights.</li>
+    </ul>
+  </div>
+
+  <!-- 5. Intellectual Property -->
+  <div class="section">
+    <h2>5. Intellectual Property</h2>
+    <p>
+      All content in the App — including but not limited to stories, vocabulary, audio recordings, illustrations, design, and code — is owned by Spanish Read or its licensors and is protected by copyright and intellectual property laws.
+    </p>
+    <p>
+      You are granted a limited, non-exclusive, non-transferable license to use the App for personal, non-commercial purposes. This license does not permit you to copy, distribute, modify, or create derivative works from any App content.
+    </p>
+  </div>
+
+  <!-- 6. Free Service & Future Purchases -->
+  <div class="section">
+    <h2>6. Free Service &amp; Future Purchases</h2>
+    <p>
+      The App is currently free to use. We may introduce optional paid features or subscriptions in the future. Any such features will be clearly marked and will require your explicit purchase before any charges are made.
+    </p>
+    <p>
+      We will never charge you without your knowledge or consent.
+    </p>
+  </div>
+
+  <!-- 7. Privacy -->
+  <div class="section">
+    <h2>7. Privacy</h2>
+    <p>
+      Your use of the App is also governed by our <a href="https://flashslayer.github.io/spanishread-privacy/">Privacy Policy</a>, which is incorporated into these Terms by reference. By using the App, you agree to the collection and use of information as described in the Privacy Policy.
+    </p>
+  </div>
+
+  <!-- 8. Disclaimers -->
+  <div class="section">
+    <h2>8. Disclaimers</h2>
+    <div class="callout">
+      <p>
+        <strong>The App is provided "as is" and "as available"</strong> without warranties of any kind, either express or implied. We do not warrant that the App will be uninterrupted, error-free, or free of viruses or other harmful components.
+      </p>
+    </div>
+    <p>
+      We do not guarantee that using the App will result in any particular language learning outcome. Progress depends on individual effort, consistency, and other factors outside our control.
+    </p>
+  </div>
+
+  <!-- 9. Limitation of Liability -->
+  <div class="section">
+    <h2>9. Limitation of Liability</h2>
+    <p>
+      To the fullest extent permitted by law, Spanish Read shall not be liable for any indirect, incidental, special, consequential, or punitive damages arising from your use of or inability to use the App, including but not limited to loss of data, loss of progress, or service interruptions.
+    </p>
+    <p>
+      Our total liability to you for any claim arising from these Terms or your use of the App shall not exceed the amount you have paid us in the past twelve months (which, for free users, is zero).
+    </p>
+  </div>
+
+  <!-- 10. Termination -->
+  <div class="section">
+    <h2>10. Termination</h2>
+    <p>
+      We reserve the right to suspend or terminate your account at any time, without notice, if we determine that you have violated these Terms or are using the App in a way that harms other users or the service.
+    </p>
+    <p>
+      You may stop using the App at any time. You can delete your account from the Profile tab inside the App.
+    </p>
+  </div>
+
+  <!-- 11. Changes to Terms -->
+  <div class="section">
+    <h2>11. Changes to These Terms</h2>
+    <p>
+      We may update these Terms from time to time. When we do, we will update the "Last updated" date at the top of this page. For significant changes, we will notify users through a notice in the App.
+    </p>
+    <p>
+      Continued use of the App after any changes constitutes your acceptance of the revised Terms.
+    </p>
+  </div>
+
+  <!-- 12. Governing Law -->
+  <div class="section">
+    <h2>12. Governing Law</h2>
+    <p>
+      These Terms are governed by and construed in accordance with the laws of the United States. Any disputes arising under these Terms shall be resolved in the courts of the United States.
+    </p>
+  </div>
+
+  <!-- 13. Contact -->
+  <div class="section">
+    <h2>13. Contact Us</h2>
+    <p>If you have any questions about these Terms, please contact us:</p>
+    <div class="contact-card">
+      <p><strong>Spanish Read</strong></p>
+      <p>Support &amp; Legal</p>
+      <span class="email">support@spanishread.com</span>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>Spanish Read · Terms of Service · Effective October 23, 2026</p>
+  </footer>
+
+</div>
